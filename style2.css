@@ -1,0 +1,125 @@
+
+
+body {
+    background-color: black;
+    background-image: url('http://static.hothdwallpaper.net/51af1fc24c53a43174.jpg');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+h1{
+    color: #D0D0D0;
+    text-align: center;
+    font-family: cursive;
+    font-size: 60px;
+}
+.container
+{
+    width: 510px;
+    margin: 0 auto;
+    opacity: 0.9;
+}
+.box
+{
+    background-color: rgba(50, 50, 50, 0.9);
+    opacity: 0.9;
+    height: 80px;
+}
+.gameboard
+{
+    width: 510px;
+    margin: 0 auto;
+
+}
+.row1, .row2, .row3 {
+    width: 150px;
+    height: 450px;
+    display: inline-block;
+    float: left;
+    border-right: 8px solid #585858;
+    background-color: rgba(50, 50, 50, 0.9);
+}
+
+.row3{
+    
+    border-right: none;
+    
+}
+.tile{
+    width: 150px;
+    height: 150px;
+    border-bottom: 8px solid #585858;
+    text-align:center;
+    transition: 1s;
+}
+.tile:hover {
+    background-color: #B0B0B0;
+    transition: 1s;
+}
+#zero {
+    border-top: none;
+    border-left: none;
+    border-right: 3px;
+}
+#one {
+    border-left: none;
+    border-right: 3px;
+}
+#two {
+    border-left: none;
+    border-bottom: none;
+    border-right: 3px;
+}
+#three {
+    border-top: none;
+}
+#five {
+    border-bottom: none;
+}
+#six {
+    border-top: none;
+    border-right: none;
+}
+#seven {
+    border-right: none;
+}
+#eight {
+    border-right: none;
+    border-bottom: none;
+}
+.X, .O {
+    font-size: 4em;
+    position: relative;
+    top: 0.5em;
+    display: none;
+}
+
+.column1, .column2 {
+    width: 200px;
+    height: 450px;
+    display: inline-block;
+    float: right;
+    background-color: rgba(50, 50, 50, 0.9);
+    color: #D0D0D0;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 40px;
+    font-family: cursive;
+    text-decoration: underline;
+    background-image: url(http://farm4.staticflickr.com/3055/2805736935_5eeb5307b8.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.column2 {
+    float: left;
+    
+}
+
+img {
+    height: 150px;
+    width: 150px;
+}
+    
+
+
